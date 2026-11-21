@@ -1,19 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ladder Quest">
-  <!-- 아트 방향 확정 전 플레이스홀더다 (S0008). 래더 한 렁 — 좌우 모선 사이에
-       A접점 하나와 코일 하나가 놓인 모양을 단색 도형으로만 그린다. -->
-  <rect width="512" height="512" rx="96" fill="#11161c"/>
-  <g stroke="#6fe08a" stroke-width="18" fill="none" stroke-linecap="round">
-    <!-- 좌우 모선 -->
-    <path d="M96 128 V384"/>
-    <path d="M416 128 V384"/>
-    <!-- 렁 배선 -->
-    <path d="M96 256 H188"/>
-    <path d="M244 256 H320"/>
-    <!-- A접점 -->
-    <path d="M188 212 V300"/>
-    <path d="M244 212 V300"/>
-    <!-- 코일 -->
-    <path d="M320 256 H336"/>
-    <circle cx="372" cy="256" r="36"/>
+  <!-- ArtCraft VectorCraft 정식 앱 아이콘 (ORDER-006). Shenzhen I/O 스타일 산업 제어반
+       베젤 안에 급전된 좌모선, 파란 여자 A접점, 자기유지 병렬 분기, 녹색 출력 코일과
+       상단 RUN 상태 표시등을 그린다. -->
+  <path d="M104 16 L408 16 C456.6 16 496 55.4 496 104 L496 408 C496 456.6 456.6 496 408 496 L104 496 C55.4 496 16 456.6 16 408 L16 104 C16 55.4 55.4 16 104 16 Z" fill="#10151c" stroke="#354252" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M108 44 L404 44 C439.3 44 468 72.7 468 108 L468 404 C468 439.3 439.3 468 404 468 L108 468 C72.7 468 44 439.3 44 404 L44 108 C44 72.7 72.7 44 108 44 Z" fill="#151d27" stroke="#24303f" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#2c3949" stroke="#4e6178" stroke-width="2">
+    <circle cx="77" cy="77" r="9"/>
+    <circle cx="435" cy="77" r="9"/>
+    <circle cx="77" cy="435" r="9"/>
+    <circle cx="435" cy="435" r="9"/>
   </g>
+  <rect x="166" y="72" width="180" height="28" rx="6" fill="#0c1117" stroke="#2e3c4d" stroke-width="2"/>
+  <circle cx="188" cy="86" r="6" fill="#6fe08a"/>
+  <circle cx="212" cy="86" r="6" fill="#2f6db0"/>
+  <circle cx="236" cy="86" r="6" fill="#ffd479"/>
+  <line x1="96" y1="124" x2="96" y2="400" stroke="#6fe08a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="416" y1="124" x2="416" y2="400" stroke="#7d8b9c" stroke-width="14" stroke-linecap="round"/>
+  <polyline points="132,232 132,340 268,340 268,232" fill="none" stroke="#6fe08a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 232 H166 M230 232 H308 M384 232 H416" fill="none" stroke="#6fe08a" stroke-width="14" stroke-linecap="round"/>
+  <rect x="166" y="184" width="64" height="96" rx="6" fill="#2f6db0"/>
+  <path d="M166 176 V288 M230 176 V288" fill="none" stroke="#e8f4ff" stroke-width="14" stroke-linecap="round"/>
+  <rect x="178" y="312" width="44" height="56" rx="4" fill="#1d3f66" stroke="#6fe08a" stroke-width="8"/>
+  <ellipse cx="346" cy="232" rx="38" ry="40" fill="#1b3b2b" stroke="#6fe08a" stroke-width="14"/>
+  <circle cx="346" cy="232" r="14" fill="#6fe08a"/>
 </svg>
